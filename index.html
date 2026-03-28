@@ -1,0 +1,1196 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>製品企画</title>
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+}
+
+h2, h3 {
+  margin-top: 30px;
+}
+
+/* ラッパー（横スクロール対応） */
+.spec-wrap {
+  overflow-x: auto;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+  margin: 20px 0;
+  border: 1px solid #ddd; /* スクロール領域の視認性UP */
+}
+
+/* テーブル本体 */
+.spec {
+  width: 100%;
+  max-width: 900px;
+  min-width: 800px; /* ←これが重要（スマホで横に逃がす） */
+  table-layout: fixed;
+  border-collapse: collapse;
+  font-size: 12px;
+  border: 2px solid #666;
+}
+
+/* セル共通 */
+.spec th,
+.spec td {
+  border: 1px solid #bbb;
+  padding: 6px; /* 少し広げて可読性UP */
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* ヘッダー */
+.spec thead th {
+  background: #d0d0d0;
+}
+
+/* ボディ */
+.spec tbody td {
+  background: #fff;
+}
+
+/* スマホ時の余白調整のみ */
+@media (max-width: 768px) {
+  .spec-wrap {
+    padding: 0 10px;
+  }
+}
+
+/* 横スクロールヒント（UX改善） */
+.spec-wrap::after {
+  content: "→ 横スクロールできます";
+  display: block;
+  text-align: right;
+  font-size: 10px;
+  color: #888;
+  padding: 4px 2px 0;
+}
+</style>
+
+</head>
+<body>
+
+<h2>製品企画</h2>
+
+<h3>標準サイズ</h3>
+<div class="spec-wrap">
+<!-- テーブル1 -->
+
+<h2>製品企画</h2>
+標準サイズ
+<div class="spec-wrap" style="margin:20px 0;">
+</div>
+<div class="spec-wrap">
+<style>@media (max-width:768px){.spec-wrap{padding:0 10px}}.spec-wrap{overflow-x:auto;width:100%;-webkit-overflow-scrolling:touch}.spec{width:100%;max-width:900px;table-layout:fixed;border-collapse:collapse;font:12px Arial,sans-serif;border:2px solid #666}.spec th,.spec td{border:1px solid #bbb;padding:4px;text-align:center;vertical-align:middle}.spec thead th{background:#d0d0d0}.spec thead tr:last-child th{background:#d0d0d0}.spec tbody td{background:#fff}</style>
+<table class="spec">
+<thead>
+<tr>
+<th rowspan="2" style="width:10%">品名</th>
+<th rowspan="2" style="width:12%">外径×長さ(mm)</th>
+<th rowspan="2" style="width:8%">容量(cm³)</th>
+<th colspan="3">施工仕様</th>
+<th rowspan="2" style="width:13%">最大引張強度<br>kN (tonf)</th>
+<th rowspan="2" style="width:13%">長期許容引張強度<br>kN (tonf)</th>
+<th rowspan="2" style="width:14%">短期許容引張強度<br>kN (tonf)</th>
+</tr>
+<tr>
+<th>アンカー筋</th>
+<th>穿孔径(mm)</th>
+<th>埋込深さ(mm)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="2">★R-8N</td>
+<td rowspan="2">8×70</td>
+<td rowspan="2">3.3</td>
+<td>M8</td>
+<td>9</td>
+<td rowspan="2">70</td>
+<td rowspan="2">30(3.0)</td>
+<td>5.53(0.56)</td>
+<td>8.29(0.84)</td>
+</tr>
+<tr>
+<td>D6</td>
+<td>9</td>
+<td>5.81(0.59)</td>
+<td>8.71(0.88)</td>
+</tr>
+<tr>
+<td rowspan="3">★R-10N</td>
+<td rowspan="3">10.5×80</td>
+<td rowspan="3">6</td>
+<td>M10</td>
+<td>12</td>
+<td>90</td>
+<td rowspan="3">55(5.6)</td>
+<td>9.24(0.94)</td>
+<td>13.8(1.41)</td>
+</tr>
+<tr>
+<td>D10</td>
+<td>12.5</td>
+<td>90</td>
+<td>9.40(0.95)</td>
+<td>14.1(1.43)</td>
+</tr>
+<tr>
+<td>3/8&quot;</td>
+<td>12</td>
+<td>80</td>
+<td>7.30(0.74)</td>
+<td>10.9(1.11)</td>
+</tr>
+<tr>
+<td rowspan="3">★R-12N</td>
+<td rowspan="3">13×83</td>
+<td rowspan="3">10</td>
+<td>M12</td>
+<td>14.5</td>
+<td rowspan="3">100</td>
+<td rowspan="3">70(7.1)</td>
+<td>11.3(1.15)</td>
+<td>17.0(1.73)</td>
+</tr>
+<tr>
+<td>D13</td>
+<td>16</td>
+<td>11.3(1.15)</td>
+<td>16.9(1.73)</td>
+</tr>
+<tr>
+<td>1/2&quot;</td>
+<td>14.5</td>
+<td>11.1(1.13)</td>
+<td>16.7(1.70)</td>
+</tr>
+<tr>
+<td rowspan="3">★R-16N</td>
+<td rowspan="3">15×110</td>
+<td rowspan="3">18</td>
+<td>M16</td>
+<td>18</td>
+<td rowspan="3">130</td>
+<td rowspan="3">115(11)</td>
+<td>18.9(1.92)</td>
+<td>28.3(2.89)</td>
+</tr>
+<tr>
+<td>D16</td>
+<td>19</td>
+<td>19.0(1.94)</td>
+<td>28.6(2.91)</td>
+</tr>
+<tr>
+<td>5/8&quot;</td>
+<td>18</td>
+<td>18.9(1.93)</td>
+<td>28.4(2.89)</td>
+</tr>
+<tr>
+<td rowspan="3">★R-19N</td>
+<td rowspan="3">19×153</td>
+<td rowspan="3">40</td>
+<td>M20</td>
+<td>23</td>
+<td rowspan="3">200</td>
+<td rowspan="3">224(22)</td>
+<td>38.3(3.91)</td>
+<td>57.5(5.87)</td>
+</tr>
+<tr>
+<td>D19</td>
+<td>24</td>
+<td>46.5(4.74)</td>
+<td>69.8(7.12)</td>
+</tr>
+<tr>
+<td>3/4&quot;</td>
+<td>22</td>
+<td>33.4(3.40)</td>
+<td>50.1(5.11)</td>
+</tr>
+<tr>
+<td rowspan="3">★R-22N</td>
+<td rowspan="3">22×198</td>
+<td rowspan="3">70</td>
+<td>M22</td>
+<td>26</td>
+<td rowspan="3">250</td>
+<td rowspan="3">296(30)</td>
+<td>47.4(4.84)</td>
+<td>71.2(7.26)</td>
+</tr>
+<tr>
+<td>D22</td>
+<td>28</td>
+<td>73.2(7.46)</td>
+<td>109(11.2)</td>
+</tr>
+<tr>
+<td>7/8&quot;</td>
+<td>26</td>
+<td>46.1(4.70)</td>
+<td>69.2(7.06)</td>
+</tr>
+<tr>
+<td rowspan="3">★R-25N</td>
+<td rowspan="3">24.5×265</td>
+<td rowspan="3">118</td>
+<td>M24</td>
+<td>30</td>
+<td rowspan="3">300</td>
+<td rowspan="3">323(32)</td>
+<td>55.3(5.63)</td>
+<td>82.9(8.45)</td>
+</tr>
+<tr>
+<td>D25</td>
+<td>32</td>
+<td>105(10.7)</td>
+<td>158(16.1)</td>
+</tr>
+<tr>
+<td>1&quot;</td>
+<td>30</td>
+<td>60.6(6.18)</td>
+<td>90.9(9.27)</td>
+</tr>
+<tr>
+<td rowspan="3">R-30N</td>
+<td rowspan="3">33×288</td>
+<td rowspan="3">233</td>
+<td>M30</td>
+<td>38</td>
+<td rowspan="3">350</td>
+<td rowspan="3">444(45)</td>
+<td>87.8(8.96)</td>
+<td>131(13.4)</td>
+</tr>
+<tr>
+<td>D29</td>
+<td>38</td>
+<td>145(14.8)</td>
+<td>217(22.2)</td>
+</tr>
+<tr>
+<td>D32</td>
+<td>40</td>
+<td>143(14.6)</td>
+<td>214(21.9)</td>
+</tr>
+<tr>
+<td rowspan="3">R-36N</td>
+<td rowspan="3">35×364</td>
+<td rowspan="3">329</td>
+<td>M36</td>
+<td>44</td>
+<td rowspan="3">400</td>
+<td rowspan="3">540(55)</td>
+<td>127(13.0)</td>
+<td>191(19.5)</td>
+</tr>
+<tr>
+<td>D35</td>
+<td>46</td>
+<td>188(19.2)</td>
+<td>282(28.8)</td>
+</tr>
+<tr>
+<td>D38</td>
+<td>48</td>
+<td>186(19.0)</td>
+<td>279(28.5)</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+★印の品名は、（一社）日本建設あと施工アンカー協会（JCAA）の製品認証を取得しています。施工方式は回転型にて取得しています。
+インチサイズネジボルトは、認証対象外です。許容強度は、認証の審査項目に含まれておりません。
+
+<div class="spec-wrap" style="margin:20px 0;">
+
+ショートサイズ
+<div class="spec-wrap">
+<style>.spec-wrap{overflow-x:auto;width:100%;-webkit-overflow-scrolling:touch}.spec{width:100%;max-width:900px;table-layout:fixed;border-collapse:collapse;font:12px Arial,sans-serif;border:2px solid #666}.spec th,.spec td{border:1px solid #bbb;padding:4px;text-align:center;vertical-align:middle}.spec thead th{background:#d0d0d0}.spec thead tr:last-child th{background:#d0d0d0}.spec tbody td{background:#fff}</style>
+<table class="spec">
+<thead>
+<tr>
+<th rowspan="2" style="width:12%">品名</th>
+<th colspan="2">カプセル</th>
+<th colspan="3">施工仕様</th>
+<th rowspan="2" style="width:15%">長期許容引張強度<br>kN (tonf)</th>
+<th rowspan="2" style="width:15%">短期許容引張強度<br>kN (tonf)</th>
+</tr>
+<tr>
+<th style="width:14%">外径×長さ(mm)</th>
+<th style="width:10%">容量(cm³)</th>
+<th style="width:14%">アンカー筋</th>
+<th style="width:10%">穿孔径(mm)</th>
+<th style="width:10%">埋込深さ(mm)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="3">R-10SN</td>
+<td rowspan="3">10.5×50</td>
+<td rowspan="3">4</td>
+<td>☆M10</td>
+<td>12</td>
+<td rowspan="3">50</td>
+<td>2.61(0.26)</td>
+<td>3.91(0.39)</td>
+</tr>
+<tr>
+<td>☆D10</td>
+<td>12.5</td>
+<td>2.69(0.27)</td>
+<td>4.03(0.41)</td>
+</tr>
+<tr>
+<td>☆3/8&quot;</td>
+<td>12</td>
+<td>2.66(0.27)</td>
+<td>4.00(0.40)</td>
+</tr>
+<tr>
+<td rowspan="3">R-12SN</td>
+<td rowspan="3">13×70</td>
+<td rowspan="3">8.5</td>
+<td>M12</td>
+<td>14.5</td>
+<td rowspan="3">80</td>
+<td>7.04(0.71)</td>
+<td>10.5(1.07)</td>
+</tr>
+<tr>
+<td>D13</td>
+<td>16</td>
+<td>7.04(0.71)</td>
+<td>10.5(1.07)</td>
+</tr>
+<tr>
+<td>1/2&quot;</td>
+<td>14.5</td>
+<td>6.91(0.70)</td>
+<td>10.3(1.05)</td>
+</tr>
+<tr>
+<td rowspan="3">R-16SN</td>
+<td rowspan="3">15×80</td>
+<td rowspan="3">14</td>
+<td>M16</td>
+<td>18</td>
+<td rowspan="3">100</td>
+<td>10.7(1.09)</td>
+<td>16.1(1.64)</td>
+</tr>
+<tr>
+<td>D16</td>
+<td>19</td>
+<td>10.8(1.11)</td>
+<td>16.3(1.66)</td>
+</tr>
+<tr>
+<td>5/8&quot;</td>
+<td>18</td>
+<td>10.7(1.10)</td>
+<td>16.1(1.65)</td>
+</tr>
+<tr>
+<td rowspan="3">R-19SN</td>
+<td rowspan="3">19×128</td>
+<td rowspan="3">33</td>
+<td>M20</td>
+<td>23</td>
+<td rowspan="3">160</td>
+<td>28.6(2.92)</td>
+<td>43.0(4.38)</td>
+</tr>
+<tr>
+<td>D19</td>
+<td>24</td>
+<td>29.1(2.97)</td>
+<td>43.7(4.46)</td>
+</tr>
+<tr>
+<td>3/4&quot;</td>
+<td>22</td>
+<td>28.8(2.94)</td>
+<td>43.2(4.41)</td>
+</tr>
+<tr>
+<td rowspan="3">R-22SN</td>
+<td rowspan="3">22×152</td>
+<td rowspan="3">54</td>
+<td>M22</td>
+<td>26</td>
+<td rowspan="3">180</td>
+<td>36.5(3.72)</td>
+<td>54.7(5.58)</td>
+</tr>
+<tr>
+<td>D22</td>
+<td>28</td>
+<td>36.8(3.75)</td>
+<td>55.2(5.63)</td>
+</tr>
+<tr>
+<td>7/8&quot;</td>
+<td>26</td>
+<td>36.4(3.71)</td>
+<td>54.6(5.57)</td>
+</tr>
+<tr>
+<td rowspan="3">R-25SN</td>
+<td rowspan="3">24.5×190</td>
+<td rowspan="3">84</td>
+<td>M24</td>
+<td>30</td>
+<td rowspan="3">200</td>
+<td>45.5(4.64)</td>
+<td>68.3(6.96)</td>
+</tr>
+<tr>
+<td>D25</td>
+<td>32</td>
+<td>45.3(4.62)</td>
+<td>67.9(6.93)</td>
+</tr>
+<tr>
+<td>1&quot;</td>
+<td>30</td>
+<td>44.8(4.57)</td>
+<td>67.3(6.86)</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div class="spec-wrap" style="margin:20px 0;">
+
+ロングサイズ
+<div class="spec-wrap">
+<style>.spec-wrap{overflow-x:auto;width:100%;-webkit-overflow-scrolling:touch}.spec{width:100%;max-width:900px;table-layout:fixed;border-collapse:collapse;font:12px Arial,sans-serif;border:2px solid #666}.spec th,.spec td{border:1px solid #bbb;padding:4px;text-align:center;vertical-align:middle}.spec thead th{background:#d0d0d0}.spec thead tr:last-child th{background:#d0d0d0}.spec tbody td{background:#fff}</style>
+<table class="spec">
+<thead>
+<tr>
+<th rowspan="2" style="width:12%">品名</th>
+<th colspan="2">カプセル</th>
+<th colspan="3">施工仕様</th>
+<th rowspan="2" style="width:15%">長期許容引張強度<br>kN (tonf)</th>
+<th rowspan="2" style="width:15%">短期許容引張強度<br>kN (tonf)</th>
+</tr>
+<tr>
+<th style="width:14%">外径×長さ(mm)</th>
+<th style="width:10%">容量(cm³)</th>
+<th style="width:14%">アンカー筋</th>
+<th style="width:10%">穿孔径(mm)</th>
+<th style="width:10%">埋込深さ(mm)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="3">R-12LN</td>
+<td rowspan="3">13×120</td>
+<td rowspan="3">15</td>
+<td>M12</td>
+<td>14.5</td>
+<td rowspan="3">150</td>
+<td>13.7(1.40)</td>
+<td>20.6(2.10)</td>
+</tr>
+<tr>
+<td>D13</td>
+<td>16</td>
+<td>24.9(2.54)</td>
+<td>37.3(3.81)</td>
+</tr>
+<tr>
+<td>1/2&quot;</td>
+<td>14.5</td>
+<td>14.2(1.45)</td>
+<td>21.4(2.18)</td>
+</tr>
+<tr>
+<td rowspan="3">R-16LN</td>
+<td rowspan="3">15×165</td>
+<td rowspan="3">28</td>
+<td>M16</td>
+<td>19</td>
+<td rowspan="3">180</td>
+<td>25.6(2.61)</td>
+<td>38.4(3.92)</td>
+</tr>
+<tr>
+<td>D16</td>
+<td>20</td>
+<td>37.9(3.87)</td>
+<td>56.9(5.80)</td>
+</tr>
+<tr>
+<td>5/8&quot;</td>
+<td>19</td>
+<td>23.5(2.39)</td>
+<td>35.2(3.59)</td>
+</tr>
+<tr>
+<td rowspan="3">R-19LN</td>
+<td rowspan="3">19×205</td>
+<td rowspan="3">54</td>
+<td>M20</td>
+<td>24</td>
+<td rowspan="3">230</td>
+<td>38.3(3.91)</td>
+<td>57.5(5.87)</td>
+</tr>
+<tr>
+<td>D19</td>
+<td>25</td>
+<td>62.5(6.37)</td>
+<td>93.7(9.56)</td>
+</tr>
+<tr>
+<td>3/4&quot;</td>
+<td>23</td>
+<td>33.4(3.40)</td>
+<td>50.1(5.11)</td>
+</tr>
+<tr>
+<td rowspan="3">R-22LN</td>
+<td rowspan="3">22×264</td>
+<td rowspan="3">93</td>
+<td>M22</td>
+<td>27</td>
+<td rowspan="3">300</td>
+<td>47.4(4.84)</td>
+<td>71.2(7.26)</td>
+</tr>
+<tr>
+<td>D22</td>
+<td>28</td>
+<td>89.0(9.07)</td>
+<td>133(13.6)</td>
+</tr>
+<tr>
+<td>7/8&quot;</td>
+<td>27</td>
+<td>46.1(4.70)</td>
+<td>69.2(7.06)</td>
+</tr>
+<tr>
+<td rowspan="3">R-25LN</td>
+<td rowspan="3">24.5×307</td>
+<td rowspan="3">137</td>
+<td>M24</td>
+<td>30</td>
+<td rowspan="3">350</td>
+<td>55.3(5.63)</td>
+<td>82.9(8.45)</td>
+</tr>
+<tr>
+<td>D25</td>
+<td>32</td>
+<td>116(11.8)</td>
+<td>174(17.8)</td>
+</tr>
+<tr>
+<td>1&quot;</td>
+<td>30</td>
+<td>60.6(6.18)</td>
+<td>90.9(9.27)</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div class="spec-wrap" style="margin:20px 0;">
+
+その他サイズ
+<div class="spec-wrap">
+<style>.spec-wrap{overflow-x:auto;width:100%;-webkit-overflow-scrolling:touch}.spec{width:100%;max-width:900px;table-layout:fixed;border-collapse:collapse;font:12px Arial,sans-serif;border:2px solid #666}.spec th,.spec td{border:1px solid #bbb;padding:4px;text-align:center;vertical-align:middle}.spec thead th{background:#d0d0d0}.spec thead tr:last-child th{background:#d0d0d0}.spec tbody td{background:#fff}</style>
+<table class="spec">
+<thead>
+<tr>
+<th rowspan="2" style="width:12%">品名</th>
+<th colspan="2">カプセル</th>
+<th colspan="3">施工仕様</th>
+<th rowspan="2" style="width:15%">長期許容引張強度<br>kN (tonf)</th>
+<th rowspan="2" style="width:15%">短期許容引張強度<br>kN (tonf)</th>
+</tr>
+<tr>
+<th style="width:14%">外径×長さ(mm)</th>
+<th style="width:10%">容量(cm³)</th>
+<th style="width:14%">アンカー筋</th>
+<th style="width:10%">穿孔径(mm)</th>
+<th style="width:10%">埋込深さ(mm)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="2">R-1010N</td>
+<td rowspan="2">10.5×100</td>
+<td rowspan="2">8</td>
+<td>M10</td>
+<td>12</td>
+<td rowspan="2">120</td>
+<td>9.47(0.96)</td>
+<td>14.2(1.44)</td>
+</tr>
+<tr>
+<td>D10</td>
+<td>12.5</td>
+<td>14.0(1.43)</td>
+<td>21.0(2.14)</td>
+</tr>
+<tr>
+<td rowspan="2">R-1013N</td>
+<td rowspan="2">10.5×130</td>
+<td rowspan="2">11</td>
+<td>M10</td>
+<td>12</td>
+<td rowspan="2">150</td>
+<td>9.47(0.96)</td>
+<td>14.2(1.44)</td>
+</tr>
+<tr>
+<td>D10</td>
+<td>12.5</td>
+<td>14.0(1.43)</td>
+<td>21.0(2.14)</td>
+</tr>
+<tr>
+<td rowspan="2">R-1205N</td>
+<td rowspan="2">13×50</td>
+<td rowspan="2">6</td>
+<td>☆M12</td>
+<td>14.5</td>
+<td rowspan="2">60</td>
+<td>3.76(0.38)</td>
+<td>5.65(0.57)</td>
+</tr>
+<tr>
+<td>☆D13</td>
+<td>16</td>
+<td>3.76(0.38)</td>
+<td>5.64(0.57)</td>
+</tr>
+<tr>
+<td rowspan="2">R-1210N</td>
+<td rowspan="2">13×100</td>
+<td rowspan="2">12</td>
+<td>M12</td>
+<td>14.5</td>
+<td rowspan="2">120</td>
+<td>13.7(1.40)</td>
+<td>20.6(2.10)</td>
+</tr>
+<tr>
+<td>D13</td>
+<td>16</td>
+<td>16.6(1.69)</td>
+<td>24.9(2.54)</td>
+</tr>
+<tr>
+<td rowspan="2">R-1319N</td>
+<td rowspan="2">13×190</td>
+<td rowspan="2">24</td>
+<td>M12</td>
+<td>15</td>
+<td rowspan="2">200</td>
+<td>13.7(1.40)</td>
+<td>20.6(2.10)</td>
+</tr>
+<tr>
+<td>D13</td>
+<td>17</td>
+<td>24.9(2.54)</td>
+<td>37.3(3.81)</td>
+</tr>
+<tr>
+<td rowspan="2">R-1615N</td>
+<td rowspan="2">15×150</td>
+<td rowspan="2">24</td>
+<td>M16</td>
+<td>19</td>
+<td rowspan="2">160</td>
+<td>25.6(2.61)</td>
+<td>38.4(3.92)</td>
+</tr>
+<tr>
+<td>D16</td>
+<td>20</td>
+<td>29.7(3.03)</td>
+<td>44.5(5.54)</td>
+</tr>
+<tr>
+<td rowspan="2">R-1618N</td>
+<td rowspan="2">15×182</td>
+<td rowspan="2">29</td>
+<td>M16</td>
+<td>19</td>
+<td rowspan="2">200</td>
+<td>25.6(2.61)</td>
+<td>38.4(3.92)</td>
+</tr>
+<tr>
+<td>D16</td>
+<td>20</td>
+<td>45.6(4.65)</td>
+<td>68.5(6.98)</td>
+</tr>
+<tr>
+<td rowspan="2">R-1620N</td>
+<td rowspan="2">15×200</td>
+<td rowspan="2">32</td>
+<td>M16</td>
+<td>19</td>
+<td rowspan="2">220</td>
+<td>25.6(2.61)</td>
+<td>38.4(3.92)</td>
+</tr>
+<tr>
+<td>D16</td>
+<td>20</td>
+<td>45.6(4.65)</td>
+<td>68.5(6.98)</td>
+</tr>
+<tr>
+<td rowspan="2">R-1909N</td>
+<td rowspan="2">19×90</td>
+<td rowspan="2">23</td>
+<td>☆M20</td>
+<td>23</td>
+<td rowspan="2">100</td>
+<td>10.3(1.05)</td>
+<td>15.5(1.58)</td>
+</tr>
+<tr>
+<td>☆D19</td>
+<td>24</td>
+<td>10.6(1.08)</td>
+<td>15.9(1.63)</td>
+</tr>
+<tr>
+<td rowspan="2">R-1910N</td>
+<td rowspan="2">19×102</td>
+<td rowspan="2">27</td>
+<td>M20</td>
+<td>23</td>
+<td rowspan="2">120</td>
+<td>15.4(1.57)</td>
+<td>23.1(2.36)</td>
+</tr>
+<tr>
+<td>D19</td>
+<td>24</td>
+<td>15.8(1.61)</td>
+<td>23.7(2.42)</td>
+</tr>
+<tr>
+<td rowspan="2">R-1922N</td>
+<td rowspan="2">19×220</td>
+<td rowspan="2">58</td>
+<td>M20</td>
+<td>24</td>
+<td rowspan="2">250</td>
+<td>38.3(3.91)</td>
+<td>57.5(5.87)</td>
+</tr>
+<tr>
+<td>D19</td>
+<td>25</td>
+<td>65.8(6.71)</td>
+<td>98.8(10.0)</td>
+</tr>
+<tr>
+<td rowspan="2">R-1926N</td>
+<td rowspan="2">19×260</td>
+<td rowspan="2">68</td>
+<td>M20</td>
+<td>24</td>
+<td rowspan="2">300</td>
+<td>38.3(3.91)</td>
+<td>57.5(5.87)</td>
+</tr>
+<tr>
+<td>D19</td>
+<td>25</td>
+<td>65.8(6.71)</td>
+<td>98.8(10.0)</td>
+</tr>
+<tr>
+<td rowspan="2">R-2210N</td>
+<td rowspan="2">22×108</td>
+<td rowspan="2">38</td>
+<td>☆M22</td>
+<td>26</td>
+<td rowspan="2">110</td>
+<td>12.6(1.28)</td>
+<td>18.9(1.92)</td>
+</tr>
+<tr>
+<td>☆D22</td>
+<td>28</td>
+<td>12.7(1.30)</td>
+<td>19.1(1.95)</td>
+</tr>
+<tr>
+<td rowspan="2">R-2212N</td>
+<td rowspan="2">22×128</td>
+<td rowspan="2">45</td>
+<td>M22</td>
+<td>26</td>
+<td rowspan="2">140</td>
+<td>21.3(2.17)</td>
+<td>32.0(3.26)</td>
+</tr>
+<tr>
+<td>D22</td>
+<td>28</td>
+<td>21.5(2.20)</td>
+<td>32.3(3.30)</td>
+</tr>
+<tr>
+<td rowspan="2">R-2228N</td>
+<td rowspan="2">22×285</td>
+<td rowspan="2">101</td>
+<td>M22</td>
+<td>27</td>
+<td rowspan="2">330</td>
+<td>47.4(4.84)</td>
+<td>71.2(7.26)</td>
+</tr>
+<tr>
+<td>D22</td>
+<td>28</td>
+<td>89.0(9.07)</td>
+<td>133(13.6)</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div class="spec-wrap" style="margin:20px 0;">
+
+<div class="spec-wrap">
+<style>.spec-wrap{overflow-x:auto;width:100%;-webkit-overflow-scrolling:touch}.spec{width:100%;max-width:900px;table-layout:fixed;border-collapse:collapse;font:12px Arial,sans-serif;border:2px solid #666}.spec th,.spec td{border:1px solid #bbb;padding:4px;text-align:center;vertical-align:middle}.spec thead th{background:#d0d0d0}.spec thead tr:last-child th{background:#d0d0d0}.spec tbody td{background:#fff}</style>
+<table class="spec">
+<thead>
+<tr>
+<th rowspan="2" style="width:12%">品名</th>
+<th colspan="2">カプセル</th>
+<th colspan="3">施工仕様</th>
+<th rowspan="2" style="width:15%">長期許容引張強度<br>kN (tonf)</th>
+<th rowspan="2" style="width:15%">短期許容引張強度<br>kN (tonf)</th>
+</tr>
+<tr>
+<th style="width:14%">外径×長さ(mm)</th>
+<th style="width:10%">容量(cm³)</th>
+<th style="width:14%">アンカー筋</th>
+<th style="width:10%">穿孔径(mm)</th>
+<th style="width:10%">埋込深さ(mm)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="2">R-2514N</td>
+<td rowspan="2">24.5×148</td>
+<td rowspan="2">66</td>
+<td>M24</td>
+<td>30</td>
+<td rowspan="2">150</td>
+<td>24.7(2.51)</td>
+<td>37.0(3.77)</td>
+</tr>
+<tr>
+<td>☆D25</td>
+<td>32</td>
+<td>24.5(2.50)</td>
+<td>36.7(3.75)</td>
+</tr>
+<tr>
+<td rowspan="2">R-2516N</td>
+<td rowspan="2">24.5×165</td>
+<td rowspan="2">73</td>
+<td>M24</td>
+<td>30</td>
+<td rowspan="2">170</td>
+<td>32.2(3.29)</td>
+<td>48.4(4.93)</td>
+</tr>
+<tr>
+<td>D25</td>
+<td>32</td>
+<td>32.0(3.27)</td>
+<td>48.1(4.90)</td>
+</tr>
+<tr>
+<td rowspan="2">R-2532N</td>
+<td rowspan="2">24.5×324</td>
+<td rowspan="2">144</td>
+<td>M24</td>
+<td>30</td>
+<td rowspan="2">370</td>
+<td>55.3(5.63)</td>
+<td>82.9(8.45)</td>
+</tr>
+<tr>
+<td>D25</td>
+<td>32</td>
+<td>116(11.8)</td>
+<td>174(17.8)</td>
+</tr>
+<tr>
+<td rowspan="3">R-3013N</td>
+<td rowspan="3">33×136</td>
+<td rowspan="3">110</td>
+<td>☆M30</td>
+<td>35</td>
+<td rowspan="3">170</td>
+<td>30.7(3.13)</td>
+<td>46.1(4.70)</td>
+</tr>
+<tr>
+<td>☆D29</td>
+<td>35</td>
+<td>31.3(3.19)</td>
+<td>47.0(4.79)</td>
+</tr>
+<tr>
+<td>☆D32</td>
+<td>38</td>
+<td>30.6(3.12)</td>
+<td>45.9(4.68)</td>
+</tr>
+<tr>
+<td rowspan="3">R-3021N</td>
+<td rowspan="3">33×214</td>
+<td rowspan="3">170</td>
+<td>M30</td>
+<td>38</td>
+<td rowspan="3">240</td>
+<td>65.4(6.67)</td>
+<td>98.1(10.0)</td>
+</tr>
+<tr>
+<td>D29</td>
+<td>38</td>
+<td>66.2(6.75)</td>
+<td>99.3(10.1)</td>
+</tr>
+<tr>
+<td>D32</td>
+<td>40</td>
+<td>64.9(6.62)</td>
+<td>97.4(9.93)</td>
+</tr>
+<tr>
+<td rowspan="3">R-3032N</td>
+<td rowspan="3">33×324</td>
+<td rowspan="3">262</td>
+<td>M30</td>
+<td>38</td>
+<td rowspan="3">400</td>
+<td>87.8(8.96)</td>
+<td>131(13.4)</td>
+</tr>
+<tr>
+<td>D29</td>
+<td>38</td>
+<td>147(15.0)</td>
+<td>221(22.5)</td>
+</tr>
+<tr>
+<td>D32</td>
+<td>40</td>
+<td>182(18.6)</td>
+<td>273(27.9)</td>
+</tr>
+<tr>
+<td rowspan="3">R-3622N</td>
+<td rowspan="3">35×220</td>
+<td rowspan="3">199</td>
+<td>M36</td>
+<td>44</td>
+<td rowspan="3">220</td>
+<td>52.7(5.37)</td>
+<td>79.0(8.06)</td>
+</tr>
+<tr>
+<td>☆D35</td>
+<td>46</td>
+<td>53.7(5.48)</td>
+<td>80.6(8.22)</td>
+</tr>
+<tr>
+<td>☆D38</td>
+<td>48</td>
+<td>52.5(5.35)</td>
+<td>78.8(8.03)</td>
+</tr>
+<tr>
+<td rowspan="3">R-3628N</td>
+<td rowspan="3">35×286</td>
+<td rowspan="3">259</td>
+<td>M36</td>
+<td>44</td>
+<td rowspan="3">300</td>
+<td>102(10.4)</td>
+<td>153(15.6)</td>
+</tr>
+<tr>
+<td>D35</td>
+<td>46</td>
+<td>103(10.5)</td>
+<td>155(15.8)</td>
+</tr>
+<tr>
+<td>D38</td>
+<td>48</td>
+<td>101(10.4)</td>
+<td>152(15.6)</td>
+</tr>
+<tr>
+<td rowspan="3">R-3642N</td>
+<td rowspan="3">35×420</td>
+<td rowspan="3">379</td>
+<td>M36</td>
+<td>44</td>
+<td rowspan="3">470</td>
+<td>127(13.0)</td>
+<td>191(19.5)</td>
+</tr>
+<tr>
+<td>D35</td>
+<td>46</td>
+<td>220(22.4)</td>
+<td>330(33.6)</td>
+</tr>
+<tr>
+<td>D38</td>
+<td>48</td>
+<td>260(26.5)</td>
+<td>390(39.8)</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div class="spec-wrap" style="margin:20px 0;">
+
+内ネジインサートボルト施工使用例
+<div class="spec-wrap">
+<style>.spec-wrap{overflow-x:auto;width:100%;-webkit-overflow-scrolling:touch}.spec{width:100%;max-width:900px;table-layout:fixed;border-collapse:collapse;font:12px Arial,sans-serif;border:2px solid #666}.spec th,.spec td{border:1px solid #bbb;padding:4px;text-align:center;vertical-align:middle}.spec thead th{background:#d0d0d0}.spec thead tr:last-child th{background:#d0d0d0}.spec tbody td{background:#fff}</style>
+<table class="spec">
+<thead>
+<tr>
+<th rowspan="3" style="width:12%">品名</th>
+<th colspan="2">カプセル</th>
+<th colspan="4">施工仕様</th>
+<th rowspan="3" style="width:15%">長期許容引張強度<br>kN (tonf)</th>
+<th rowspan="3" style="width:15%">短期許容引張強度<br>kN (tonf)</th>
+</tr>
+<tr>
+<th rowspan="2" style="width:14%">外径×長さ(mm)</th>
+<th rowspan="2" style="width:10%">容量(cm³)</th>
+<th colspan="2">内ネジインサートボルト</th>
+<th rowspan="2" style="width:10%">穿孔径(mm)</th>
+<th rowspan="2" style="width:10%">埋込深さ(mm)</th>
+</tr>
+<tr>
+<th style="width:14%">外寸法(mm)</th>
+<th style="width:14%">内ネジ寸法(mm)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>R-16SN</td>
+<td>15×80</td>
+<td>14</td>
+<td>☆16×80</td>
+<td>10×18</td>
+<td>18</td>
+<td>80</td>
+<td>6.59(0.67)</td>
+<td>9.89(1.00)</td>
+</tr>
+<tr>
+<td>R-1909N</td>
+<td>19×90</td>
+<td>23</td>
+<td>☆20×100</td>
+<td>12×22</td>
+<td>23</td>
+<td>100</td>
+<td>10.3(1.05)</td>
+<td>15.5(1.58)</td>
+</tr>
+<tr>
+<td>R-2510N</td>
+<td>24.5×100</td>
+<td>45</td>
+<td>☆24×125</td>
+<td>16×27</td>
+<td>28</td>
+<td>125</td>
+<td>16.3(1.66)</td>
+<td>24.5(2.50)</td>
+</tr>
+<tr>
+<td>R-2815N</td>
+<td>28.5×150</td>
+<td>92</td>
+<td>☆30×170</td>
+<td>20×30</td>
+<td>35</td>
+<td>170</td>
+<td>30.7(3.13)</td>
+<td>46.1(4.70)</td>
+</tr>
+<tr>
+<td>R-3622N</td>
+<td>35×220</td>
+<td>199</td>
+<td>36×220</td>
+<td>22×35</td>
+<td>44</td>
+<td>220</td>
+<td>47.4(4.84)</td>
+<td>71.2(7.26)</td>
+</tr>
+<tr>
+<td>R-4025N</td>
+<td>40×255</td>
+<td>310</td>
+<td>39×250</td>
+<td>24×38</td>
+<td>48</td>
+<td>250</td>
+<td>55.3(5.63)</td>
+<td>82.9(8.45)</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+※1 最大引張強度は、Mネジボルト（高強度ボルト）を使用した実験値です。
+※2「ケミカルアンカー設計指針」に基づいた計算値です。
+　　＊計算条件；Mネジボルト(SS400相当材）の場合：Fc=21N/ｍｍ2、M16以下 sδy=245N/ｍｍ2、M20以上 sδy=235N/ｍｍ2　
+　　異形棒鋼の場合：Fc=21N/ｍｍ2、D13以下(SD295) sδy=295N/ｍｍ2、D16以上(SD345) sδy=345N/ｍｍ2　
+　　☆印の施工仕様は、埋込深さが穿孔径の5倍未満のため長期許容引張強度は参考値となリます。
+注1 許容強度はアンカーの配置条件により低減する場合があります。「ケミカルアンカー設計指針」（（一社）建築研究振興協会 監修）を参照ください。　
+　　短期許容引張強度は、長期許容引張強度の1.5倍となります。
+　　1kgf=9.80665N　
+注2 水中施工は回転打撃施工で行ってください。　
+注3 R-101ON、1013N、1319N、1618N、1620N、1922N、1926N、2228N、2532N、3013N、3021N、30N、3032N、3622N、3628N、36N、3642N、4025Nは回転打撃施工で行ってください。
+
+</div>
+</body>
+</html>
