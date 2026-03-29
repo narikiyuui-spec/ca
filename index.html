@@ -67,6 +67,30 @@ h2, h3 {
   color: #888;
   padding: 4px 2px 0;
 }*/
+
+details summary {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 12px;
+  background: #f5f5f5;
+  border: 1px solid #ccc;
+  width: 875px;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+
+details[open] {
+  margin-bottom: 20px;
+}
+
+details .spec-wrap {
+  margin-top: 10px;
+}
+
+
 </style>
 
 </head>
@@ -507,7 +531,8 @@ h2, h3 {
 </table>
 </div>
 
-<h3>その他サイズ</h3>
+<details>
+<summary>その他サイズ</summary>
 
 <div class="spec-wrap">
 <table class="spec">
@@ -703,9 +728,11 @@ h2, h3 {
 </tbody>
 </table>
 </div>
+</details>
 
+<details>
 
-<h3>内ネジインサートボルト施工使用例</h3>
+<summary>内ネジインサートボルト施工使用例</summary>
 
 <div class="spec-wrap">
 <table class="spec">
@@ -806,7 +833,8 @@ h2, h3 {
 
 </tbody>
 </table>
-
+</div>
+</details>
 
 <div class="note">
 <ul>
@@ -820,6 +848,4 @@ h2, h3 {
       R-1010N、1013N、1319N、1618N、1620N、1922N、1926N、2228N、2532N、3013N、3021N、3032N、3622N、3628N、3642N、4025N
   </li>
 </ul>
-</div>
-
 </div>
