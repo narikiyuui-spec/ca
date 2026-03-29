@@ -90,6 +90,32 @@ details .spec-wrap {
   margin-top: 10px;
 }
 
+details summary {
+  cursor: pointer;
+  list-style: none;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+/* 三角（閉じ） */
+details summary::before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 6px solid #333;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  margin-right: 8px;
+  transform: translateY(1px);
+}
+
+/* 三角（開く） */
+details[open] summary::before {
+  transform: rotate(90deg);
+}
 
 </style>
 
