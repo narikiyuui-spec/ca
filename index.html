@@ -74,9 +74,16 @@ details summary {
   padding: 12px;
   background: #f5f5f5;
   border: 1px solid #ccc;
-  width: 875px;
+  width: 900px;
 }
 
+/* スマホ用 */
+@media (max-width: 782px) {
+  details summary {
+    width: 100%;
+  }
+}
+	
 details summary::-webkit-details-marker {
   display: none;
 }
@@ -115,6 +122,16 @@ details summary::before {
 /* 三角（開く） */
 details[open] summary::before {
   transform: rotate(90deg);
+}
+	
+td {
+  display: table-cell !important;
+  vertical-align: middle !important;
+}
+
+td > * {
+  display: inline !important;
+  line-height: normal !important;
 }
 
 </style>
@@ -517,6 +534,7 @@ details[open] summary::before {
 <td>47.4(4.84)</td>
 <td>71.2(7.26)</td>
 </tr>
+
 <tr>
 <td>D22</td>
 <td>28</td>
